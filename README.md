@@ -1,11 +1,10 @@
 
-    # Project Title: test
+    # ReadMe Generator
   
   
   
     ## Description 
-    
-    Greetings my name is test! test
+    Greetings! This is my ReadMe Generator, a simple tool to create a quick and easy "readme" file. As a matter of fact what you're reading now was framed by this tool (with    some tweaking of course for formatting and all that great stuff). You simply answer some prompts and the tool should do the rest. Enjoy
     
     ## Table of Contents 
     
@@ -20,13 +19,13 @@
     
     ## Installation
     
-    test
+    To install just simply download and run in bash. The tool requires Inquirer.js so be sure to install that too with a simple `npm install inquirer`.
     
     
     
     ## Usage 
     
-    test
+    To use the tool type `node index` and answer the prompts. 
     
     
     
@@ -38,19 +37,21 @@
     
     ## Contributing
     
-    The conrtibuters to this project are test
+    https://www.npmjs.com/package/inquirer
+    
+    and Me :) 
     
     
     
     ## Tests
     
-    Testing Used for this project undefined
+   Good ole trial and error for this one but you could definetly use something Jest or whatever JS testing scripts you have at your disposal.
     
     
     
     ## Qustions
     
-    test
+   Feel free to email me any questions at my email below.
     
-    I can  be reached at test.
-    My Github: https://github.com/undefined
+    I can  be reached at JordanMitchellProfessional@gmail.com .
+    My Github: https://github.com/JMitchell95
