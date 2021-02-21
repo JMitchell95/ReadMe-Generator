@@ -63,20 +63,6 @@ function userQuestions() {
         message: "Leave a nice message for your questions section.(your email and github linke will be included)"
       },
     ])
-    .then(answers => {
-        console.info('Here are your inputs:');
-        console.log(`Your Name: ${answers.name}`);
-        console.log(`Project Name: ${answers.project}`)
-        console.log(`Your Email: ${answers.email}`);
-        console.log(`Your Github: ${answers.github}`);
-        console.log(`Your Description: ${answers.description}`);
-        console.log(`How to  install: ${answers.installation}`);
-        console.log(`How to use: ${answers.usage}`);
-        console.log(`Your License: ${answers.license}`);
-        console.log(`Your Contributers: ${answers.contributers}`);
-        console.log(`Your Tests: ${answers.tests}`);
-        console.log(`Your Question Section: ${answers.questions}`);
-      });
 
     } 
 
@@ -103,7 +89,7 @@ function userQuestions() {
     
     ## Installation
     
-    ${installation}
+    ${answers.installation}
     
     
     
@@ -127,7 +113,7 @@ function userQuestions() {
     
     ## Tests
     
-    Testing Used for this project ${answer.test}
+    Testing Used for this project ${answers.test}
     
     
     
@@ -135,7 +121,7 @@ function userQuestions() {
     
     ${answers.questions}
     
-    I can  be reached at ${answer.email}.
+    I can  be reached at ${answers.email}.
     My Github: https://github.com/${answers.github}`
   }
 

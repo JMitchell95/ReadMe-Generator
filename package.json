@@ -1,15 +1,25 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple cli readme generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMitchell95/ReadMe-Generator.git"
+  },
+  "keywords": [
+    "ReadMe"
+  ],
+  "author": "Jordan Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMitchell95/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/JMitchell95/ReadMe-Generator#readme",
   "dependencies": {
-    "i": "^0.3.6",
-    "inquirer": "^6.5.2"
+    "inquirer": "^7.3.3"
   }
 }
