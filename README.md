@@ -1,4 +1,6 @@
- # ReadMe Generator by Jordan Mitchell
+ # ReadMe Generator by Jordan Mitchell   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
   
  ## Description 
 Greetings! This is my ReadMe Generator, a simple tool to create a quick and easy "readme" file. As a matter of fact what you're reading now was framed by this tool (with    some tweaking of course for formatting and all that great stuff). You simply answer some prompts and the tool should do the rest. Enjoy.
@@ -25,8 +27,13 @@ Greetings! This is my ReadMe Generator, a simple tool to create a quick and easy
      
    ## License
     
-   This project is covered under MIT
-    
+   GNU General Public License v3.0
+   
+License Copyright: Copyright © 2007 Free Software Foundation, Inc.
+License License: "Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed." (www.gnu.org/licenses/gpl-3.0.en.html).
+License Contact: Free Software Foundation (fsf.org).
+
+SPDX short identifier: GPL-3.0-only
     
    ## Contributing
     
